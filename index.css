@@ -206,6 +206,8 @@ footer {
 
 .categories .categories-list {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 25px;
 }
 
@@ -216,7 +218,7 @@ footer {
   align-items: center;
   gap: 10px;
   padding: 25px 20px;
-  width: 180px;
+  width: 175px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   position: relative;
@@ -729,9 +731,6 @@ footer .footer-socials a:hover {
 
   .categories .categories-list {
     margin: 40px 5px;
-    justify-content: center;
-    flex-wrap: wrap;
-
     row-gap: 40px;
   }
 
@@ -913,55 +912,55 @@ footer .footer-socials a:hover {
   }
 
   footer {
-  margin-top: 80px;
-  padding: 20px 0px;
-}
+    margin-top: 80px;
+    padding: 20px 0px;
+  }
 
-footer .footer-content {
-  border-bottom: 1px solid #0000001a;
-  flex-direction: column;
-  gap: 30px;
-  padding-bottom: 30px;
-}
+  footer .footer-content {
+    border-bottom: 1px solid #0000001a;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 30px;
+  }
 
-footer .footer-content .footer-info {
-  gap: 0.5rem;
-  align-items: center;
-  text-align: center;
-}
+  footer .footer-content .footer-info {
+    gap: 0.5rem;
+    align-items: center;
+    text-align: center;
+  }
 
-footer .footer-content .footer-links {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap:15px;
-}
+  footer .footer-content .footer-links {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
 
-footer .copyrights {
-  width: 100%;
-  flex-direction: column;
-  gap: 15px;
-  text-align: center;
-  margin-top: 30px;
-}
+  footer .copyrights {
+    width: 100%;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    margin-top: 30px;
+  }
 
-footer .copyrights p span {
-  color: #ff7300;
-}
+  footer .copyrights p span {
+    color: #ff7300;
+  }
 
-footer .footer-socials {
-  width: fit-content;
-  display: flex;
-  gap: 20px;
-}
+  footer .footer-socials {
+    width: fit-content;
+    display: flex;
+    gap: 20px;
+  }
 
-footer .footer-socials a {
-  text-decoration: none;
-  color: #000000;
-  font-size: 1.2rem;
-  font-weight: 500;
-  cursor: pointer;
-}
+  footer .footer-socials a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -1138,51 +1137,51 @@ footer .footer-socials a {
   }
 
   .subscribe {
-  border-radius: 30px;
-  padding: 1rem;
-}
+    border-radius: 30px;
+    padding: 1rem;
+  }
 
   .subscribe img {
-  width: 40%;
-}
+    width: 40%;
+  }
 
-.subscribe img:first-child {
-  transform: translate(0%, -48%);
-  filter: blur(3px);
-}
+  .subscribe img:first-child {
+    transform: translate(0%, -48%);
+    filter: blur(3px);
+  }
 
-.subscribe img:last-child {
-  transform: translate(0%, -40%);
-  filter: blur(2px);
-}
+  .subscribe img:last-child {
+    transform: translate(0%, -40%);
+    filter: blur(2px);
+  }
 
-.subscribe .subscribe-content {
-  text-align: center;
-}
+  .subscribe .subscribe-content {
+    text-align: center;
+  }
 
-.subscribe .subscribe-content h2 {
-width: 100%;
-  font-size: 1.4rem;
-  margin-bottom: 0.5rem;
-}
+  .subscribe .subscribe-content h2 {
+    width: 100%;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
 
-.subscribe .subscribe-content .email-sub {
-  width: fit-content;
-  gap: 0px;
-  justify-content: space-evenly;
-  border-radius: 15px;
-  margin-top: 1.5rem;
-}
+  .subscribe .subscribe-content .email-sub {
+    width: fit-content;
+    gap: 0px;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    margin-top: 1.5rem;
+  }
 
-.subscribe .subscribe-content .email-sub input[type="email"] {
-  padding: 0.8rem 1rem;
-  padding: 0.5rem;
-  width:65%
-}
+  .subscribe .subscribe-content .email-sub input[type="email"] {
+    padding: 0.8rem 1rem;
+    padding: 0.5rem;
+    width: 65%;
+  }
 
-.subscribe .subscribe-content .email-sub input[type="button"] {
-  padding: 0.5rem 0.8rem ;
-  font-size: 0.6rem;
-  border-radius: 10px;
-}
+  .subscribe .subscribe-content .email-sub input[type="button"] {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.6rem;
+    border-radius: 10px;
+  }
 }
